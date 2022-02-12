@@ -43,6 +43,8 @@ EOF
 
 echo "Done"
 
+ipfs init
+
 ipfs add helloworld.txt
 
 ipfs daemon
