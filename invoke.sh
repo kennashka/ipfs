@@ -32,8 +32,8 @@ ipfs --version
 
 # > ipfs version 0.11.0
 
-touch helloworld.txt
-FILE="./helloworld.txt"
+touch index.html style.css
+FILE="./index.html"
 
 /bin/cat << 'EOF' > $FILE
 
