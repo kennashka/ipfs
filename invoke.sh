@@ -31,3 +31,14 @@ bash install.sh
 ipfs --version
 
 # > ipfs version 0.11.0
+
+touch helloworld.txt
+FILE="./helloworld.txt"
+
+/bin/cat << 'EOF' > $FILE
+
+Hello World
+
+EOF
+
+echo "Done"
