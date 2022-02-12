@@ -42,3 +42,7 @@ Hello World
 EOF
 
 echo "Done"
+
+ipfs add helloworld.txt
+
+ipfs daemon
