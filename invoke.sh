@@ -45,6 +45,8 @@ echo "Done"
 
 ipfs init
 
-ipfs add helloworld.txt
+ipfs add index.html style.css
+
+ipfs add -r kennashka/
 
 ipfs daemon
