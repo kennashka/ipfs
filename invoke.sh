@@ -47,6 +47,7 @@ ipfs init
 
 ipfs add index.html style.css
 
-ipfs add -r kennashka/
 
-ipfs daemon
+ipfs daemon &
+
+ipfs add -r kennashka/
