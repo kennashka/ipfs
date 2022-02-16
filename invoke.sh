@@ -32,6 +32,8 @@ ipfs --version
 
 # > ipfs version 0.11.0
 
+mkdir kennashka
+
 touch index.html style.css
 FILE="./index.html"
 
@@ -41,12 +43,12 @@ Hello World
 
 EOF
 
-echo "Done"
+
+mv index.html style.css kennashka
+
+echo "Folder Set-Up is Done"
 
 ipfs init
-
-ipfs add index.html style.css
-
 
 ipfs daemon &
 
