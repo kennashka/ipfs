@@ -34,6 +34,7 @@ ipfs --version
 
 mkdir kennashka
 
+
 touch index.html style.css
 FILE="./index.html"
 
@@ -46,7 +47,7 @@ EOF
 
 mv index.html style.css kennashka
 
-echo "Folder Set-Up is Done"
+echo "Your First IPFS SITE IS Successful"
 
 ipfs init
 
